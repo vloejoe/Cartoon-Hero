@@ -1,0 +1,21 @@
+			h1{
+				font-size: 30px;
+				color: salmon;
+			}
+			h2{
+				font-size: 30px;
+				color: hotpink;
+			}
+			.big{
+				font-size: 50px;
+				color: green;
+			}
+			.uppercase{
+				text-transform: uppercase;
+			}
+			.big.uppercase{
+				color: navy;
+			}
+			body{
+				background-color: lightgray ;
+			}
