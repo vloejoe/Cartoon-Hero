@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import sliderData from "../Data/sliderdata";
+import sliderData from "/src/Data/sliderdata";
 
 export default function Slider() {
   const [sliderIndex, setSliderIndex] = useState(1);
@@ -11,7 +11,10 @@ export default function Slider() {
         src={`src/IMG/${sliderData.image}`}
       />
       <p className="absolute px-4 text-lg text-white bottom-6">
-        {sliderData.description}
+        {sliderData.episode}
+      </p>
+      <p className="relative px-4 text-lg text-black bottom-6">
+        'Severance's Commentary on Work/Life Balance'
       </p>
     </div>
   );
